@@ -10,7 +10,7 @@ for i in Lines:
 
 
  
- req = Request("https"+i)
+ req = Request("https://"+i)
  print("Status of "+i)
  try:
     response = urlopen(req)

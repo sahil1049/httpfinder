@@ -2,6 +2,7 @@
 from urllib.request import Request, urlopen
 from urllib.error import URLError, HTTPError
 
+#list containing domains
 file1 = open('read.txt', 'r') 
 
 Lines = file1.readlines()
@@ -27,3 +28,4 @@ for i in Lines:
  else:
     
     print ('Website is working fine')
+file1.close()
